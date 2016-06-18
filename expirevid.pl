@@ -2,7 +2,7 @@
 
 # Jerry Fath jerryfath at gmail dot com
 #
-# Recurse all directories.  Expire episodes by age or count according to config files
+# Recurse directories and expire episodes by age or count according to config files
 # Config files are named expirevid.cfg and have the format:
 # maxage=#
 # maxcount=#
@@ -69,7 +69,7 @@ my $CurMaxCount;
 my @MaxCount;
 
 #Video File Extensions
-my @VidExtensions=(".mkv", ".mpg", ".mpeg", ".avi");
+my @VidExtensions=(".mkv", ".mp4", ".mpg", ".mpeg", ".avi");
 
 #Track depth in tree
 my $CurDepth;
