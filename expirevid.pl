@@ -205,6 +205,7 @@ my @VidFiles;
                    || /$VidExtensions[1]/
                    || /$VidExtensions[2]/
                    || /$VidExtensions[3]/
+                   || /$VidExtensions[4]/
                  } readdir($dh);
     closedir $dh;
 
